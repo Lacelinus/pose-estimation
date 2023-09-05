@@ -1,2 +1,2 @@
 # pose estimation
- Pose estimation with using computer vision
+ Pose estimation with using opencv and mediapipe libraries
