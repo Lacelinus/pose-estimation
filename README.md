@@ -1,34 +1,31 @@
-# Real-Time Pose Detection using OpenCV and MediaPipe
-
-This Python script demonstrates real-time pose detection using OpenCV and the MediaPipe library. It captures video from a file (in this case, "vid1.mp4") and detects the pose of a person in each frame of the video. The detected landmarks and connections are then overlaid on the video.
+# PyBank ATM System
 
 ## Overview
 
-This script utilizes the MediaPipe library to perform pose estimation, allowing you to track key points on a person's body in real-time. The detected landmarks can be used for various applications, including fitness tracking, motion analysis, and more.
+The PyBank ATM System is a Python-based ATM application that allows users to create accounts, deposit and withdraw money, manage credit, and visualize their financial history. This program uses SQLite for data storage, pandas for data manipulation, and Matplotlib and Seaborn for data visualization.
 
 ## Usage
 
 1. Clone or download this project to your local machine.
 2. Ensure you have Python installed.
-3. Install the necessary libraries by running `pip install opencv-python mediapipe`.
-4. Replace `"vid1.mp4"` with the path to your own video file if needed.
-5. Run the Python script.
-6. The script will process the video, detecting the pose in each frame and overlaying the landmarks.
-7. Press the 'q' key to exit the video window when you're done.
+3. Install the necessary libraries by running `pip install sqlite3 pandas matplotlib seaborn`.
+4. Run the `PyBank.py` script to start the PyBank ATM System.
 
 ## Dependencies
 
-Make sure you have the following dependencies installed before running the code:
-- [Python](https://www.python.org/): The programming language used for this project.
-- [OpenCV](https://opencv.org/):  Open-source computer vision library.
-- [MediaPipe](https://mediapipe.dev/): A framework for building multimodal pipelines, including pose detection.
+- [SQLite3](https://docs.python.org/3/library/sqlite3.html): Used for database management.
+- [Pandas](https://pandas.pydata.org/): Used for data manipulation and storage.
+- [Matplotlib](https://matplotlib.org/): Used for creating plots and visualizations.
+- [Seaborn](https://seaborn.pydata.org/): Used for enhancing data visualizations.
 
 ## Important Notes
 
-This project provides a basic example of real-time pose detection, which can be extended for various applications. Feel free to modify the code to suit your specific needs and experiment with different videos.
+- This ATM system is designed for educational purposes and may require additional security features for real-world usage.
+- Ensure you have the necessary Python libraries (`sqlite3`, `pandas`, `matplotlib`, `seaborn`) installed to run the code successfully.
+- For user-specific financial records, the program saves transaction data in CSV files located in the `veritabanı/paragrafik/` directory.
 
 ## Author
 
-This project was created by Lacelinus. You can reach out to me at ekremkprn2@gmail.com for any questions or suggestions.
+This ATM system was created by Lacelinus. If you have any questions or suggestions, feel free to reach out at ekremkprn2@gmail.com.
 
-Enjoy exploring real-time pose detection using OpenCV and MediaPipe!
+Enjoy using the PyBank ATM System!
